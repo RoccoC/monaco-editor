@@ -1,5 +1,5 @@
 {
-	"name": "monaco-editor-webpack-plugin",
+	"name": "monaco-editor-webpack-plugin-esm",
 	"version": "7.1.1",
 	"description": "A webpack plugin for the Monaco Editor",
 	"main": "out/index.js",

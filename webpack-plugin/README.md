@@ -2,10 +2,12 @@
 
 A plugin to simplify loading the [Monaco Editor](https://github.com/microsoft/monaco-editor) with [webpack](https://webpack.js.org/).
 
+**Note:** This is a fork of `monaco-webpack-plugin` to add support for module workers ([microsoft/monaco-editor#4741](https://github.com/microsoft/monaco-editor/issues/4741)). This package will be deprecated when/if the original package is fixed (see this [PR](https://github.com/microsoft/monaco-editor/pull/4742)).
+
 ## Installing
 
 ```sh
-npm install monaco-editor-webpack-plugin
+npm install monaco-editor-webpack-plugin-esm
 ```
 
 ## Using
@@ -13,7 +15,7 @@ npm install monaco-editor-webpack-plugin
 - `webpack.config.js`:
 
 ```js
-const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
+const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin-esm');
 const path = require('path');
 
 module.exports = {
